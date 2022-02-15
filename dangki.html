@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/batminton.css">
+    <link rel="stylesheet" href="css/dangki.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <script language="javascript" src="css/dangki.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div id="menu">
+            <div class="menu_title">
+                <p>SIGN UP RYAN<b style="color: red;">.</b></p>
+            </div>
+            <div class="menu_home">
+                <ul>
+                    <li><a href="doan.html" class="li1"> HOME</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    <div id="dangki">
+        
+        <div class="dangki-center">
+            <h1>Sign Up</h1>
+            <form name="s1" id="s1" action="#">
+                <div class="form_text">
+                    <input oninput="return kiemtra()" type="text" name="rUser" id="rUser"  placeholder="Username" >
+                </div> <span id="tb1"></span>
+
+                <div class="form_text">
+                    <input oninput="return kiemtra()" type="email" name="rEmail" id="rEmail"  placeholder="Email">
+                </div> <span id="tb2"></span>
+
+                <div class="form_text">
+                    <input oninput="return kiemtra()" type="password" name="rPass" id="rPass" class="with" placeholder="Password" >
+                </div> <span id="tb3"></span>
+
+                <div class="form_text">
+                    <input oninput="return kiemtra()" type="password" name="rEnter" id="rEnter" class="with" placeholder="Enter Password" >
+                </div> <span id="tb4"></span>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="remeber" value="check">
+                    <label for="remeber">I have read accepted the <a href="#">Terms and conditions</a>  and <a href="#">Privacy Policy</a> </label>
+                    </div>
+                    <span id="huy"></span>
+
+                <div class="submit">
+                    <button type="submit" id="button" onclick="kiemtra()">Sign Up</button>
+                    <input type="reset" id="reset" name="reset" value="Reset">
+                </div>
+                <p><a href="dangnhap.html" class="i1"><i class="fas fa-arrow-left"></i>Come back</a></p>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
